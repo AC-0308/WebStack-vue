@@ -5,25 +5,37 @@
         "icon": "linecons-desktop",
         "web": [
             {
-                "url": "http://router1.tianyuhao.top:8006/",
-                "logo": "assets/images/logos/proxmox.png",
-                "title": "PVE",
-                "desc": "服务器管理页面。"
+                "url": "https://router1.tianyuhao.top:9000/",
+                "logo": "assets/images/logos/pandorabox.jfif",
+                "title": "PandoraBox",
+                "desc": "PandoraBox 管理页面。"
             },
             {
-                "url": "http://router1.tianyuhao.top:5000/",
+                "url": "https://router1.tianyuhao.top:8006/",
+                "logo": "assets/images/logos/proxmox.png",
+                "title": "PVE",
+                "desc": "PVE服务器管理页面。"
+            },
+            {
+                "url": "https://router1.tianyuhao.top:8888/bt_panel",
+                "logo": "assets/images/logos/debian.png",
+                "title": "宝塔面板",
+                "desc": "Debian服务器宝塔面板。"
+            },
+            {
+                "url": "https://router1.tianyuhao.top:5001/",
                 "logo": "assets/images/logos/dsm.png",
                 "title": "DSM",
                 "desc": "群晖管理页面。"
             },
             {
-                "url": "http://router1.tianyuhao.top:5000/?launchApp=SYNO.SDS.Drive.Application",
+                "url": "https://router1.tianyuhao.top:5001/?launchApp=SYNO.SDS.Drive.Application",
                 "logo": "assets/images/logos/drive.png",
                 "title": "drive",
                 "desc": "群晖 Drive 套件。"
             },
             {
-                "url": "http://router1.tianyuhao.top:5000/?launchApp=SYNO.Photo.AppInstance#/my_library/timeline",
+                "url": "https://router1.tianyuhao.top:5001/?launchApp=SYNO.Photo.AppInstance#/my_library/timeline",
                 "logo": "assets/images/logos/moments.png",
                 "title": "moments",
                 "desc": "群晖 Moments 套件。"
@@ -36,7 +48,7 @@
         "icon": "linecons-tv",
         "web": [
             {
-                "url": "http://router1.tianyuhao.top:8096/",
+                "url": "https://jellyfin.tianyuhao.top:8920/",
                 "logo": "assets/images/logos/jellyfin.png",
                 "title": "Jellyfin",
                 "desc": "家庭影院库。"
@@ -55,22 +67,28 @@
         "icon": "linecons-star",
         "web": [
             {
-                "url": "http://router1.tianyuhao.top:9000/",
+                "url": "https://docker.tianyuhao.top:9000/portainer/",
                 "logo": "assets/images/logos/portainer.png",
                 "title": "Portainer",
                 "desc": "Docker Web GUI"
             },
             {
-                "url": "http://router1.tianyuhao.top:6880/",
+                "url": "https://docker.tianyuhao.top:9000/AriaNg/",
                 "logo": "assets/images/logos/ariang.png",
                 "title": "AriaNg",
                 "desc": "Aria 2 Web GUI"
             },
             {
-                "url": "http://router1.tianyuhao.top:5678/",
-                "logo": "assets/images/logos/ariang.png",
+                "url": "https://docker.tianyuhao.top:9000/jd/",
+                "logo": "assets/images/logos/jd.jpg",
                 "title": "京东羊毛",
                 "desc": "京东薅羊毛小助手"
+            },
+            {
+                "url": "https://jenkins.tianyuhao.top:9000",
+                "logo": "assets/images/logos/jd.jpg",
+                "title": "Jenkins",
+                "desc": "Jenkins"
             }
         ]
     }
